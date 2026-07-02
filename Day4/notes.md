@@ -36,10 +36,8 @@ There can be different types of cardinality between the tables:
     - Here we can consider the example of actor and film table, because one actor (actor_id) can act in many films (film_id) and many actors (actor_id) can act in one film (film_id)
 
 4. One-to-one:
-    - Consider the below friends table which has friend_id as one of it's column and the other column is about the ids with which one person can be friends. 
+    - Consider the below friends table (friends_table.png) which has friend_id as one of it's column and the other column is about the ids with which one person can be friends. 
     - One person can has many friends. It is like a self join because it is joined with the self table using a bridge table called as friendship.
-
-![friends_table](https://file%2B.vscode-resource.vscode-cdn.net/Users/rutujabhairawakar/Desktop/Studies/Rutu_studies/SQL_studies/Day4/friends_table.png?version%3D1783017968700)
 
 
 ### CTE (Common Table Expressions):
